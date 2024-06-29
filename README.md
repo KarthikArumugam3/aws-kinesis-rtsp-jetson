@@ -39,14 +39,14 @@ pip install -r requirements.txt
 
 #### 4. Streaming & Consuming Realtime feed from AWS to any remote machine using a python client.
 1. Once the kinesis has be successfully setup run the following to start the live streaming from a local system:-
-Setup the necessary configuration in file called "config.json"
+- Setup the necessary configuration in file called "config.json"
 ```
 python kinesis_producer.py
 ```
 **Note**:- The streaming can be stopped by simply pressing "Enter" key.
 
 2. Run the following to get the live streaming url for consuming the feed from Kinesis:-
-Setup the necessary configuration in file called ".env"
+- Setup the necessary configuration in file called ".env"
 ```
 python get_hls_endpoint.py
 ```
