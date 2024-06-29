@@ -1,4 +1,4 @@
-from common_subprocess_kinesis import GStreamerProcess
+from subprocess_utils import GStreamerProcess
 # import time
 from os import path
 import json
